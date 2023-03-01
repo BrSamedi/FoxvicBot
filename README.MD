@@ -9,7 +9,7 @@
    6. chat_id - ID личного диалога или группы. Получить через https://t.me/username_to_id_bot
    7. sort - порядок отправки сообщений: asc - по порядку строк в таблице (сверху вниз), desc - в обратном порядке
 4. Включить Google API https://console.cloud.google.com/flows/enableapi?apiid=sheets.googleapis.com
-5. Открыть командную строку в папке с проектом и установить все зависимости командой:  
+5. Открыть командную строку в папке с проектом и установить все зависимости командами:  
 **pip install -r requirements.txt**  
 **pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib**
 6. Произвести первый запуск бота командой:  
